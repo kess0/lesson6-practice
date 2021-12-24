@@ -1,0 +1,66 @@
+header {
+    background-color: antiquewhite;
+}
+
+.logo {
+    width: 200px;
+    height: 150px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    background-color: red;
+    float: right;
+}
+.nav-ul {
+    display: inline-block;
+    background-color: burlywood;
+    float: left;
+}
+.nav-li {
+    display: inline-block;
+}
+.clear {
+    clear: both;
+}
+.float::after {
+    content: '';
+    display: block;
+    clear: left;
+}
+.articleImage {
+    height: 200px;
+    width: 250px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    background-color: darkgreen;
+}
+.float .articleImage {
+    float: left;
+}
+.flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+footer {
+    background-color: grey;
+    padding: 10px 0 30px 5px ;
+}
+.inline-block {
+    display: inline-block;
+}
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+#icon-facebook path{
+    fill: green !important;
+}
+.icon-facebook:before {
+    color: red;
+    font-size: 50px;
+}
